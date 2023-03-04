@@ -1,1 +1,1 @@
-# intrapersonalcommunication
+# miniproject.github.io

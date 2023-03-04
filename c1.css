@@ -1,0 +1,89 @@
+body{
+    background:rgb(236, 74, 74);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 120vh;
+
+}
+body{
+    background: url(img/c4.gif) no-repeat;
+    background-size:800px;
+}
+body{
+    background-color: black;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+
+}
+form{
+    width: 400px;
+    border: 2px solid rgb(8, 8, 8);
+    padding: 10px 10px 100px 80px;
+    background: rgb(8, 8, 8);
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    margin-bottom: 20px;
+    color: rgb(250, 249, 244);
+}
+
+input{
+    display: block;
+    border: 2px solid blue;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(253, 239, 174);
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+button{
+    float: right;
+    background: rgb(242, 239, 245);
+    padding: 10px 15px;
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+button:hover{
+    color: rgb(253, 245, 245);
+    background-color: rgb(5, 5, 5);
+}
+.error{
+    background: tomato;
+    color: rgb(10, 10, 10);
+    padding: 15px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+textarea {
+    resize: none;
+  }
+
+  textarea:invalid {
+    border: 2px dashed red;
+  }
+  
+  textarea:valid {
+    border: 2px solid lime;
+  }
+

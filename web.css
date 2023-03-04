@@ -1,0 +1,58 @@
+body{
+    background: url(img/00.jpg) no-repeat;
+    background-size: cover;
+}
+   
+form{
+        display:block;
+        width: 35%;
+        padding:30px;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        box-shadow: 10px 10px 10px 10px rgb(0,0,0,0.2);
+        color: rgb(245, 240, 240);
+    }
+    h1{
+        
+        text-align: center;
+        text-transform: uppercase;
+        margin: 30px 0;
+        color: rgb(221, 221, 233);
+    
+       
+    }
+    p{
+        font-size: 15px;
+        margin: 15px 0px;
+    }
+    input{
+        font-size: 12px;
+        width: 100%;
+        padding: 12px 8px;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+    
+    }
+    
+    .regbuttons{
+        text-decoration: none;
+        padding:8px ;
+        margin-top:20%;
+        color: white;
+        font-size: 1rem;
+        background-color: black;
+        
+    }
+    .regbuttons:hover{
+        background-color: rgb(221, 221, 233);
+        color:black;
+    
+    
+        transition: all 0.3s ease-in;
+        
+    }
+  

@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background:url(img/log.jpg) no-repeat;
+    background-size:cover;
+     overflow: hidden; 
+ }
+ .login-form{
+    display:block;
+    width: 35%;
+    padding:10px;
+    height: 40%;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute; 
+     /* box-shadow: 10px 10px 10px 10rgba(175, 92, 92, 0.2).2); */
+    color: rgb(241, 233, 233);
+} 
+.login-form h1{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 80px 0;
+    
+
+   
+}
+.login-form p{
+    font-size: 15px;
+    margin: 10px 5px;
+}
+.login-form input{
+    font-size: 12px;
+    width: 100%;
+    padding: 12px 8px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(240, 248, 247);
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.regbuttons{
+    text-decoration: none;
+    padding:8px ;
+    margin-top:0%;
+    color: rgb(5, 5, 5);
+    font-size: 1rem;
+    background-color: rgb(252, 247, 247);
+    
+}
+.regbuttons:hover{
+    background-color: rgb(14, 14, 13);
+    color:rgb(253, 252, 252);
+
+
+    transition: all 0.3s ease-in;
+    
+}
+.ca{
+   font-size: 14px;
+   display: inline-block;
+    padding:10px;
+    
+    text-decoration:none;
+    color: rgb(8, 8, 8);
+
+}
+.ca:hover{
+    text-decoration: underline;
+
+}
+.error{
+    background: #e7a7a7;
+    color: #993433;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.success{
+    background: #9df8b2;;
+    color: #098b27;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
