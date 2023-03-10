@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: url(img/s1.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.login-form{
+    width: 100px;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    color: rgb(12, 1, 1);
+}
+.login-form h1{
+    font-size: 55px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:left;
+    text-transform: uppercase;
+    margin: -65% 30px;
+    width: 300px;        
+    
+    left: 70%;
+    transform: translate(-85%,-150%);
+    position:absolute;
+    color: rgb(250, 243, 243);
+    
+
+   
+}
+
+.login-form button{
+     font-size: 18px;
+    font-weight:lighter;
+    /*background-color: rgba(2, 2, 148, 0.698);*/
+    background-color: rgb(193, 220, 250);
+    
+    /* margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%; */
+    border-radius: 4px; 
+    border-color: rgb(144, 144, 241);
+}
+
+/* .login-form h2{
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align:justify;
+    text-transform: uppercase;
+    margin: 150px 40px;
+    width: 300px;        
+    top: 460%;
+    left: 240%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    color: rgb(228, 15, 15);
+      
+} */
+.b{
+    color:whitesmoke;
+}
+.regbuttons{
+    text-decoration: none;
+    padding:8px ;
+    margin: 10px;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    
+}
+.buttons-btn{
+    padding: 10px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-left: 11%;
+    margin-top: 24%;
+    
+
+}
+.regbuttons:hover{
+    background-color: white;
+    color:black;
+    transition: all 0.3s ease-in;
+    
+}
+
+/* .login-form h1{
+    width: 100px;
+    background: rgb(114, 218, 250);
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  .overflow {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  } */
+
